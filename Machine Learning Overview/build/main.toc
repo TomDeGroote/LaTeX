@@ -1,0 +1,31 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {chapter}{\numberline {2}Regression}{4}
+\contentsline {section}{\numberline {2.1}Linear Regression}{4}
+\contentsline {subsection}{\numberline {2.1.1}Code examples}{4}
+\contentsline {chapter}{\numberline {3}Classification}{6}
+\contentsline {section}{\numberline {3.1}K Nearest Neighbors}{6}
+\contentsline {subsection}{\numberline {3.1.1}Code examples}{6}
+\contentsline {section}{\numberline {3.2}Support Vector Machines}{6}
+\contentsline {subsection}{\numberline {3.2.1}Support Vector Machine Regression}{6}
+\contentsline {chapter}{\numberline {4}Clustering}{8}
+\contentsline {chapter}{\numberline {5}General Terms}{9}
+\contentsline {paragraph}{Confidence Score}{9}
+\contentsline {paragraph}{Cross Validation}{9}
+\contentsline {paragraph}{Eucledian Distance}{9}
+\contentsline {paragraph}{Features}{9}
+\contentsline {paragraph}{Kernels}{9}
+\contentsline {paragraph}{Labels}{9}
+\contentsline {paragraph}{Linear Algebra}{9}
+\contentsline {paragraph}{Preprocessing}{9}
+\contentsline {paragraph}{Machine Learning Classifier}{9}
+\contentsline {paragraph}{Machine Learning Model}{9}
+\contentsline {paragraph}{Supervised Learning}{10}
+\contentsline {paragraph}{R squared method}{10}
+\contentsline {paragraph}{Threading}{10}
+\contentsline {paragraph}{Types of Data}{10}
+\contentsline {chapter}{Appendices}{11}
+\contentsline {chapter}{\numberline {A}Regression}{12}
+\contentsline {chapter}{\numberline {B}Manual Regression}{15}
+\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{17}
+\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{18}
