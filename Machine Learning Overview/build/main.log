@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  12 JAN 2017 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  19 JAN 2017 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,11 +666,6 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--9
-
- []
-
 <images/linear_regression.png, id=22, 1284.8pt x 934.49126pt>
 File: images/linear_regression.png Graphic file (type png)
 
@@ -681,15 +676,17 @@ Package pdftex.def Info: images/linear_regression.png used on input line 12.
 
 ] [5 <./images/linear_regression.png>]
 Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
-
- []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 
 <images/svm.png, id=37, 1163.34625pt x 1010.77625pt>
 File: images/svm.png Graphic file (type png)
  <use images/svm.png>
-Package pdftex.def Info: images/svm.png used on input line 17.
+Package pdftex.def Info: images/svm.png used on input line 23.
 (pdftex.def)             Requested size: 170.71393pt x 148.32475pt.
 )
 (./clustering.tex [6
@@ -704,31 +701,20 @@ Chapter 5.
 File: images/kernelmethod.png Graphic file (type png)
 
 <use images/kernelmethod.png>
-Package pdftex.def Info: images/kernelmethod.png used on input line 19.
+Package pdftex.def Info: images/kernelmethod.png used on input line 22.
 (pdftex.def)             Requested size: 170.71393pt x 76.16423pt.
  [9
 
- <./images/kernelmethod.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
-) [10] [11
+ <./images/kernelmethod.png>]) [10] [11
 
 
-] (./code.tex
+]
+(./code.tex
 Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-(/home/tom/Dropbox/Workspace/Python/PracticalML/Regression.py
+(/home/tom/Dropbox/Workspace/Python/PracticalML/LinearRegression/Regression.py
 Overfull \hbox (29.1008pt too wide) in paragraph at lines 19--21
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
@@ -798,11 +784,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [14]
 Appendix B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-(/home/tom/Dropbox/Workspace/Python/PracticalML/ManualRegression.py
+(/home/tom/Dropbox/Workspace/Python/PracticalML/LinearRegression/ManualRegressi
+on.py
 Overfull \hbox (95.08519pt too wide) in paragraph at lines 10--11
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -833,11 +816,8 @@ Overfull \hbox (125.0781pt too wide) in paragraph at lines 47--48
 ) [16]
 Appendix C.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-(/home/tom/Dropbox/Workspace/Python/PracticalML/KNearestNeighbors.py
+(/home/tom/Dropbox/Workspace/Python/PracticalML/KNearestNeighbors/KNearestNeigh
+bors.py
 Overfull \hbox (77.08945pt too wide) in paragraph at lines 6--7
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -852,11 +832,8 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 19--21
 ]
 Appendix D.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-(/home/tom/Dropbox/Workspace/Python/PracticalML/ManualKNearestNeighbors.py
+(/home/tom/Dropbox/Workspace/Python/PracticalML/KNearestNeighbors/ManualKNeares
+tNeighbors.py
 Overfull \hbox (65.09229pt too wide) in paragraph at lines 4--5
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -895,47 +872,104 @@ Overfull \hbox (23.10222pt too wide) in paragraph at lines 32--34
  []
 
 
-Overfull \hbox (65.09229pt too wide) in paragraph at lines 37--38
+Overfull \hbox (167.06816pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (251.0483pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (95.08519pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[18
+
+]
+Overfull \hbox (269.04404pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (119.07951pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (47.09654pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.09229pt too wide) in paragraph at lines 57--58
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (71.09087pt too wide) in paragraph at lines 38--39
+Overfull \hbox (71.09087pt too wide) in paragraph at lines 58--59
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
 
-)) [18
 
-] (build/main.aux) ) 
+Overfull \hbox (23.10222pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (77.08945pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (149.07242pt too wide) in paragraph at lines 80--81
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (89.08661pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]))
+[20] (build/main.aux) ) 
 Here is how much of TeX's memory you used:
- 15997 strings out of 493029
- 296692 string characters out of 6136233
- 410175 words of memory out of 5000000
- 19175 multiletter control sequences out of 15000+600000
+ 16020 strings out of 493029
+ 297190 string characters out of 6136233
+ 417262 words of memory out of 5000000
+ 19197 multiletter control sequences out of 15000+600000
  15351 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,75p,1102b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-bx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
-l1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on build/main.pdf (18 pages, 383812 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.e
+nc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on build/main.pdf (20 pages, 392768 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 151 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

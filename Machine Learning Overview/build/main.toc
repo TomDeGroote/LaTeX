@@ -13,13 +13,14 @@
 \contentsline {paragraph}{Confidence Score}{9}
 \contentsline {paragraph}{Cross Validation}{9}
 \contentsline {paragraph}{Eucledian Distance}{9}
+\contentsline {paragraph}{Eucledian Norm}{9}
 \contentsline {paragraph}{Features}{9}
 \contentsline {paragraph}{Kernels}{9}
 \contentsline {paragraph}{Labels}{9}
 \contentsline {paragraph}{Linear Algebra}{9}
 \contentsline {paragraph}{Preprocessing}{9}
-\contentsline {paragraph}{Machine Learning Classifier}{9}
-\contentsline {paragraph}{Machine Learning Model}{9}
+\contentsline {paragraph}{Machine Learning Classifier}{10}
+\contentsline {paragraph}{Machine Learning Model}{10}
 \contentsline {paragraph}{Supervised Learning}{10}
 \contentsline {paragraph}{R squared method}{10}
 \contentsline {paragraph}{Threading}{10}
