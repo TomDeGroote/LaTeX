@@ -6,6 +6,9 @@ A score that tells you how accurate and reliable a model is performing based on 
 \paragraph{Cross Validation} 
 Is a model validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. It splits the data set in test and training data.
 
+\paragraph{Decision Boundary}
+In a statistical-classification problem with two classes, a decision boundary is a hyperplane that partitions the underlying vector space into two sets, one for each class.
+
 \paragraph{Eucledian Distance}
 A way to calculate the distance on a plane between points. It uses the following formula: $\sqrt{\sum\limits_{i=1}^n (q_{i} - p_{i})^2}$. Measures the length of a line segment between points.
 
@@ -14,6 +17,9 @@ Measures the magnitude of a vector, which is basically the length. The equation 
 
 \paragraph{Features} 
 Descriptive attributes for the data.
+
+\paragraph{Hyperplane}
+A hyperplane is a subspace of one dimension less than its ambient space. If a space is 3-dimensional then its hyperplanes are the 2-dimensional planes.
 
 \paragraph{Kernels} 
 Is a kind of transformation on your data. Grossly put it simplifies your data. More specifically kernel methods use kernel functions to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but rather by simply computing the inner products between the images of all pairs of data in the feature space. This is computationally a lot better than using the raw data. For an example see figure \ref{fig:kernelmethods}.
@@ -29,6 +35,9 @@ What you are trying to predict of forecast for the data.
 \paragraph{Linear Algebra} 
 The objective of linear algebra is to calculate relationships of points in vector space. 
 
+\paragraph{(Maximum) Margin Classifier}
+A margin classifier is a classifier which is able to give an associated distance from the decision boundary for each example. A maximum margin classifier maximises the distance between the decision boundary and all examples.
+
 \paragraph{Preprocessing} 
 Used to clean/scale the data before using machine learning techniques. Cleaning for example by replacing NaN data with -99 999, because it will be handled as an outlier, or by interpolating it. Scaling your features so they fall between -1 and 1 is genarally a good idea because it could make the processing faster and more accurate.
 
@@ -41,6 +50,9 @@ For om machine learning where the scientist teaches the machine by showing it fe
 
 \paragraph{R squared method}
 Also known as \emph{coefficient of determination}. The squared error is the mean or sum of the distance between the solution values and the actual values. For example in Linear regression the error is the distance between the regresssion line's y values and the data's y values. The squared error is either a mean or sum of this. Squared error is used because on the one hand it normalises all errors to be positive and on the other hand it punishes outliers harder. Since the squared error is just a relative number to your dataset it has no real meaning, that's why we use the r squared method. This method uses the formula $r^2 = 1 - \frac{SE\hat{y}}{SE_{\overline{y}}}$ which is just one minus the division of the squared error of the regression line and the squared error of the mean y line. A number close to 1 means the classifier is performing well, a number close to 0 means it is performing bad. It is a good measure when trying to predict an exact future value, however if you just want to predict a general tendense it is not the best measure.
+
+\paragraph{Support Vector}
+The points closest to the maximum-margin-hyperplane, as shown in figure \ref{fig:svm-support-vectors}.
 
 \paragraph{Threading} 
 Some machine learning algorithms can be split into multiple threads, this is often indicated by the \emph{n\_ jobs} parameter in python. Others don't have this luxurary and are known as running linear.

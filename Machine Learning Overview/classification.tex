@@ -16,13 +16,36 @@ The confidence of this algorithm can be measured in two ways:
 Two code approaches have been made. The first approach uses the \emph{sklearn} kit, the approach can be found in appendix \ref{code:knn}. The second approach shows a more basic KNN which illustrates it's fundamentals. This code can help you understand the basic building blocks of the algorithm and let you see where it's pitfalls are. The code can be found in appendix \ref{code:mknn}.
 
 \section{Support Vector Machines}
-A SVM is a bineairy classifier. It tries to classify the examples by seperating them lineairly. This is done by maximising the distance between the seperating plane and the closest example of both classes, as shown in figure \ref{fig:svm}
+A SVM is a binary classifier. The objective of the Support Vector Machine is to find the best splitting boundary between data. It is a maximum-margin-classifier. It deals in vector space, thus the seperation is done by using a hyperplane (aka decision boundary). The best hyperplane is the one that contains the widest margin between support vectors. It is generally much faster than the KNN algorithm and also more resistent for outliers and pointless data.
+\\
+\noindent Steps to find the decision boundary:
+\begin{enumerate}
+\item Find the support vectors, see figure \ref{fig:svm-support-vectors}. We find these support vectors by maximising the distance between all examples of the two classes.
+\item The decision boundary runs through the middle of these support vectors, see figure \ref{fig:svm-decision-boundary}.
+\end{enumerate}
+
+As you may notice, this method will only work natively on linearly-seperable data and data with only two classes. %TODO however we can fix this by...
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{images/svm-support-vectors.png}
+\caption{\label{fig:svm-support-vectors} Shows the support vectors for this SVM classification problem.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{images/svm-decision-boundary.png}
+\caption{\label{fig:svm-decision-boundary} Shows the decision boundary for this SVM classification problem.}
+\end{figure}
+
+\subsection{Code examples}
+Two code approaches have been made. The first approach uses the \emph{sklearn} kit, the approach can be found in appendix \ref{code:svm} and is very similar to appendix \ref{code:knn}. The second approach shows a more basic KNN which illustrates it's fundamentals. This code can help you understand the basic building blocks of the algorithm and let you see where it's pitfalls are. The code can be found in appendix \ref{code:msvm}.
+
+\subsection{Support Vector Machine Regression}
+It is possible to use SVMs to learn linear regression lines, as shown in our code example \ref{code:manualregression}. It tries to classify the examples by seperating them lineairly. This is done by maximising the distance between the seperating plane and the closest example of both classes, as shown in figure \ref{fig:svm}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.4\textwidth]{images/svm.png}
 \caption{\label{fig:svm} Shows three seperation planes, H1 is not a good seperating plane, H2 and H3 are acceptable.}
 \end{figure}
-
-\subsection{Support Vector Machine Regression}
-It is possible to use SVMs to learn linear regression lines, as shown in our code example \ref{code:manualregression}, however we will not discuss in depth how this works.
