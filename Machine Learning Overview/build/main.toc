@@ -14,22 +14,25 @@
 \contentsline {paragraph}{Confidence Score}{10}
 \contentsline {paragraph}{Cross Validation}{10}
 \contentsline {paragraph}{Decision Boundary}{10}
+\contentsline {paragraph}{Dot Product}{10}
 \contentsline {paragraph}{Eucledian Distance}{10}
 \contentsline {paragraph}{Eucledian Norm}{10}
 \contentsline {paragraph}{Features}{10}
 \contentsline {paragraph}{Hyperplane}{10}
 \contentsline {paragraph}{Kernels}{10}
-\contentsline {paragraph}{Labels}{10}
-\contentsline {paragraph}{Linear Algebra}{10}
+\contentsline {paragraph}{Labels}{11}
+\contentsline {paragraph}{Linear Algebra}{11}
 \contentsline {paragraph}{(Maximum) Margin Classifier}{11}
 \contentsline {paragraph}{Preprocessing}{11}
 \contentsline {paragraph}{Machine Learning Classifier}{11}
 \contentsline {paragraph}{Machine Learning Model}{11}
+\contentsline {paragraph}{Norm}{11}
 \contentsline {paragraph}{Supervised Learning}{11}
 \contentsline {paragraph}{R squared method}{11}
 \contentsline {paragraph}{Support Vector}{11}
 \contentsline {paragraph}{Threading}{11}
 \contentsline {paragraph}{Types of Data}{11}
+\contentsline {paragraph}{Vector}{11}
 \contentsline {chapter}{Appendices}{12}
 \contentsline {chapter}{\numberline {A}Regression}{13}
 \contentsline {chapter}{\numberline {B}Manual Regression}{16}

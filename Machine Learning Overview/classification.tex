@@ -16,7 +16,7 @@ The confidence of this algorithm can be measured in two ways:
 Two code approaches have been made. The first approach uses the \emph{sklearn} kit, the approach can be found in appendix \ref{code:knn}. The second approach shows a more basic KNN which illustrates it's fundamentals. This code can help you understand the basic building blocks of the algorithm and let you see where it's pitfalls are. The code can be found in appendix \ref{code:mknn}.
 
 \section{Support Vector Machines}
-A SVM is a binary classifier. The objective of the Support Vector Machine is to find the best splitting boundary between data. It is a maximum-margin-classifier. It deals in vector space, thus the seperation is done by using a hyperplane (aka decision boundary). The best hyperplane is the one that contains the widest margin between support vectors. It is generally much faster than the KNN algorithm and also more resistent for outliers and pointless data.
+A SVM is a binary classifier. The objective of the Support Vector Machine is to find the best splitting boundary between data. It is a maximum-margin-classifier. It deals in vector space, thus the seperation is done by using a hyperplane. The best hyperplane is the one that contains the widest margin between support vectors, and is called the decision boundary. It is generally much faster than the KNN algorithm and also more resistent for outliers and pointless data.
 \\
 \noindent Steps to find the decision boundary:
 \begin{enumerate}
@@ -24,7 +24,8 @@ A SVM is a binary classifier. The objective of the Support Vector Machine is to 
 \item The decision boundary runs through the middle of these support vectors, see figure \ref{fig:svm-decision-boundary}.
 \end{enumerate}
 
-As you may notice, this method will only work natively on linearly-seperable data and data with only two classes. %TODO however we can fix this by...
+As you may notice, this method will only work natively on linearly-seperable data and data with only two classes.
+In machine learning each feature forms an extra dimension. This is only a general overview of SVMs, for more information take a look at this SVM Tutorial\footnote{http://www.svm-tutorial.com/}.
 
 \begin{figure}
 \centering
