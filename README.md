@@ -9,5 +9,6 @@ This repository contains some LaTeX projects. The main focus of these LaTeX file
 * Machine Learning Overview
   * Currently under development
   * Summarizes some Machine Learning Concepts.
+* Ubuntu Tips & Tricks
 
 ## Papers
