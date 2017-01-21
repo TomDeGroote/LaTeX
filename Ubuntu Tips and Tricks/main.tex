@@ -35,7 +35,7 @@
 
 \subsection{Setting up credentials}
 This way you don't have to enter your username and password every time you want to push to for example \emph{Github}.
-\\\\
+\\
 Install and compile the Gnome Keyring devel:
 \begin{lstlisting}
 sudo apt-get install libgnome-keyring-dev
@@ -48,5 +48,99 @@ git config --global credential.helper /usr/share/doc/git/contrib/credential/
 gnome-keyring/git-credential-gnome-keyring
 \end{lstlisting}
 
+\section{PDFMtEd}
+PDFMtEd is a tool that allows to change the metadata of a pdf file. 
+\subsection{Installation}
+Clone or download the Github repository at https://github.com/Glutanimate/PDFMtEd and follow the installation instructions. Afterwards you can right-click on the pdf file and select PDFMtEd-editor to edit the metadata or use the command line tool, as explained in the readme.
+
+\section{Webpage to Epub}
+%TODO english translation
+Probeer eerst de Chrome Plugin EpubPress, als die iets mooi geeft (Let vooral op afbeeldingen en mathematische vergelijkingen voor problemen) kan je dit in calibre importen en mooi maken.
+\\
+\\
+Als dit niet werkt kan je de webpagina opslagen met behulp van \emph{ctrl + s}. Compress de \emph{html} file samen met de \emph{\_files} map tot een zip. Import deze zip in calibre en convert naar een epub (eventueel met als tussenstap htmlz als het niet mooi is). Kijk opnieuw of het mooi is of niet.
+\\
+\\
+Als dit nog niet lukt moet je jouw epub droom opgeven en overgaan naar pdf, voer de volgende stappen uit:
+\begin{enumerate}
+\item Slaag de wepagina pagina op via \emph{ctrl + s}
+\item Zet om naar een zit
+\item Compress de \emph{.html} file samen met de \emph{\_files} map tot een zip
+\item Gebruik calibre om dit om te zetten naar pdf (eventueel met htmlz als tussenstap)
+\item Bewerk de pdf files met pdftk om laatste pagina's te laten vallen net als overbodige eerste pagina's 
+\begin{lstlisting}
+pdftk file.pdf cat begin_page-end_page output dropped_pages_file.pdf
+\end{lstlisting}
+\item Merge met pdftk 
+\begin{lstlisting}
+pdftk *.pdf cat output merged.pdf
+\end{lstlisting}
+\item Gebruik PDFMtEd om meta data juist te zetten
+\end{enumerate}
+
+\section{Xournal}
+Pdf editor tool. Handy to take notes, add images, ... in a pdf. You can also use this tool to remove parts of a pdf page by creating a white image (for example with pinta) adding this image to the pdf and overlapping the part you want removed.
+
+\subsection{installation}
+You can find Xournal in the software center or using command line:
+\begin{lstlisting}
+sudo apt-get install Xournal
+\end{lstlisting}
+
+\section{Pinta}
+Basically paint for ubuntu.
+
+\section{Gimp}
+Basically a free photoshop thing, but a bit more complicated it seems.
+
+\section{Video conversion}
+Tips and tricks to convert your video files to what you want.
+
+\subsection{Converting Any audio to AC3}
+Often sound-systems won't play 5.1 AAC audio as surround sound, so you have to convert it to 5.1 AC3 audio. You can use ffmpeg for this.
+\\
+\\
+Install ffmpeg as follows:
+%TODO
+\\
+\\
+Convert the audio to AC3 as follows:
+\begin{lstlisting}
+ffmpeg -i input.mkv -codec copy -acodec ac3 output.mkv
+\end{lstlisting}
+
+\subsection{Burning subtitles in video}
+Use mkvmerge to do this.
+\\
+\\
+Installation:
+%TODO
+\\
+\\
+Use it as follows:
+\begin{lstlisting}
+mkvmerge -o output.mkv iniput.mkv subtitles.srt 
+\end{lstlisting}
+
+\section{Calibre}
+Usefull tool for convert lots of formats to lots of formats, including zip, pdf, epub and html. You can also use this to download articles from Pocket (You need at least 10 and all articles will be moved to the archive afterwards) and convert them to epub. It has a very good epub editor (in html style) to make the details perfect.
+\\
+\\
+Installation:
+\begin{lstlisting}
+sudo add-apt-repository ppa:n-muench/programs-ppa
+sudo apt-get update
+sudo apt-get install calibre
+\end{lstlisting}
+\subsection{Convert articles from Pocket to Epub}
+%TODO
+\begin{enumerate}
+\item Press the \emph{Fetch News} button
+\item Search pocket
+\item Select pocket enter username and password, \textbf{Warning} your password can't contain spaces or special characters or Calibre won't be able to fetch the pocket articles
+\item Click the \emph{Download Now} button on the bottom right
+\item All Pocket articles are downloading now, \textbf{Warning} you need at least 10 articles in Pocket for this to succeed, and all these articles will be moved to archive on Pocket
+\item Select the newly added epub and start editing by pressing the \emph{Edit book} button.
+\end{enumerate}
 
 \end{document}
