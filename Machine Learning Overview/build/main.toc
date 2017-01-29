@@ -1,5 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}Special Thanks to}{3}
 \contentsline {chapter}{\numberline {2}Regression}{4}
 \contentsline {section}{\numberline {2.1}Linear Regression}{4}
 \contentsline {subsection}{\numberline {2.1.1}Code examples}{4}
@@ -7,12 +8,16 @@
 \contentsline {section}{\numberline {3.1}K Nearest Neighbors}{6}
 \contentsline {subsection}{\numberline {3.1.1}Code examples}{6}
 \contentsline {section}{\numberline {3.2}Support Vector Machines}{6}
-\contentsline {subsection}{\numberline {3.2.1}Code examples}{7}
-\contentsline {subsection}{\numberline {3.2.2}Support Vector Machine Regression}{7}
+\contentsline {subsection}{\numberline {3.2.1}Kernels}{7}
+\contentsline {subsection}{\numberline {3.2.2}Soft Margin SVMs}{8}
+\contentsline {subsection}{\numberline {3.2.3}OVR and OVO}{8}
+\contentsline {subsection}{\numberline {3.2.4}Code examples}{8}
 \contentsline {chapter}{\numberline {4}Clustering}{9}
 \contentsline {chapter}{\numberline {5}General Terms}{10}
 \contentsline {paragraph}{Confidence Score}{10}
+\contentsline {paragraph}{Convex}{10}
 \contentsline {paragraph}{Cross Validation}{10}
+\contentsline {paragraph}{Deterministic Enviroment}{10}
 \contentsline {paragraph}{Decision Boundary}{10}
 \contentsline {paragraph}{Dot Product}{10}
 \contentsline {paragraph}{Eucledian Distance}{10}
@@ -20,23 +25,26 @@
 \contentsline {paragraph}{Features}{10}
 \contentsline {paragraph}{Hyperplane}{10}
 \contentsline {paragraph}{Kernels}{10}
-\contentsline {paragraph}{Labels}{11}
-\contentsline {paragraph}{Linear Algebra}{11}
+\contentsline {paragraph}{Labels}{10}
+\contentsline {paragraph}{Linear Algebra}{10}
 \contentsline {paragraph}{(Maximum) Margin Classifier}{11}
+\contentsline {paragraph}{Object Oriented Programming}{11}
 \contentsline {paragraph}{Preprocessing}{11}
 \contentsline {paragraph}{Machine Learning Classifier}{11}
 \contentsline {paragraph}{Machine Learning Model}{11}
 \contentsline {paragraph}{Norm}{11}
+\contentsline {paragraph}{Overfitting}{11}
+\contentsline {paragraph}{Stochastic Enviroment}{11}
 \contentsline {paragraph}{Supervised Learning}{11}
 \contentsline {paragraph}{R squared method}{11}
-\contentsline {paragraph}{Support Vector}{11}
-\contentsline {paragraph}{Threading}{11}
-\contentsline {paragraph}{Types of Data}{11}
-\contentsline {paragraph}{Vector}{11}
-\contentsline {chapter}{Appendices}{12}
-\contentsline {chapter}{\numberline {A}Regression}{13}
-\contentsline {chapter}{\numberline {B}Manual Regression}{16}
-\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{18}
-\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{19}
-\contentsline {chapter}{\numberline {E}Support Vector Machine}{22}
-\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{23}
+\contentsline {paragraph}{Support Vector}{12}
+\contentsline {paragraph}{Threading}{12}
+\contentsline {paragraph}{Types of Data}{12}
+\contentsline {paragraph}{Vector}{12}
+\contentsline {chapter}{Appendices}{13}
+\contentsline {chapter}{\numberline {A}Regression}{14}
+\contentsline {chapter}{\numberline {B}Manual Regression}{17}
+\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{19}
+\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{20}
+\contentsline {chapter}{\numberline {E}Support Vector Machine}{23}
+\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{24}
