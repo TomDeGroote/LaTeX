@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {1.1}Special Thanks to}{3}
+\contentsline {section}{\numberline {1.1}Acknowledgements}{3}
 \contentsline {chapter}{\numberline {2}Regression}{4}
 \contentsline {section}{\numberline {2.1}Linear Regression}{4}
 \contentsline {subsection}{\numberline {2.1.1}Code examples}{4}
@@ -13,38 +13,50 @@
 \contentsline {subsection}{\numberline {3.2.3}OVR and OVO}{8}
 \contentsline {subsection}{\numberline {3.2.4}Code examples}{8}
 \contentsline {chapter}{\numberline {4}Clustering}{9}
-\contentsline {chapter}{\numberline {5}General Terms}{10}
-\contentsline {paragraph}{Confidence Score}{10}
-\contentsline {paragraph}{Convex}{10}
-\contentsline {paragraph}{Cross Validation}{10}
-\contentsline {paragraph}{Deterministic Enviroment}{10}
-\contentsline {paragraph}{Decision Boundary}{10}
-\contentsline {paragraph}{Dot Product}{10}
-\contentsline {paragraph}{Eucledian Distance}{10}
-\contentsline {paragraph}{Eucledian Norm}{10}
-\contentsline {paragraph}{Features}{10}
-\contentsline {paragraph}{Hyperplane}{10}
-\contentsline {paragraph}{Kernels}{10}
-\contentsline {paragraph}{Labels}{10}
-\contentsline {paragraph}{Linear Algebra}{10}
-\contentsline {paragraph}{(Maximum) Margin Classifier}{11}
-\contentsline {paragraph}{Object Oriented Programming}{11}
-\contentsline {paragraph}{Preprocessing}{11}
-\contentsline {paragraph}{Machine Learning Classifier}{11}
-\contentsline {paragraph}{Machine Learning Model}{11}
-\contentsline {paragraph}{Norm}{11}
-\contentsline {paragraph}{Overfitting}{11}
-\contentsline {paragraph}{Stochastic Enviroment}{11}
-\contentsline {paragraph}{Supervised Learning}{11}
-\contentsline {paragraph}{R squared method}{11}
-\contentsline {paragraph}{Support Vector}{12}
-\contentsline {paragraph}{Threading}{12}
-\contentsline {paragraph}{Types of Data}{12}
-\contentsline {paragraph}{Vector}{12}
-\contentsline {chapter}{Appendices}{13}
-\contentsline {chapter}{\numberline {A}Regression}{14}
-\contentsline {chapter}{\numberline {B}Manual Regression}{17}
-\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{19}
-\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{20}
-\contentsline {chapter}{\numberline {E}Support Vector Machine}{23}
-\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{24}
+\contentsline {section}{\numberline {4.1}K-Means}{9}
+\contentsline {subsection}{\numberline {4.1.1}Code examples}{9}
+\contentsline {section}{\numberline {4.2}Mean Shift}{9}
+\contentsline {subsection}{\numberline {4.2.1}Code examples}{10}
+\contentsline {chapter}{\numberline {5}General Terms}{11}
+\contentsline {paragraph}{Centroids}{11}
+\contentsline {paragraph}{Confidence Score}{11}
+\contentsline {paragraph}{Convex}{11}
+\contentsline {paragraph}{Cross Validation}{11}
+\contentsline {paragraph}{Deterministic Enviroment}{11}
+\contentsline {paragraph}{Decision Boundary}{11}
+\contentsline {paragraph}{Dot Product}{11}
+\contentsline {paragraph}{Eucledian Distance}{11}
+\contentsline {paragraph}{Eucledian Norm}{11}
+\contentsline {paragraph}{Features}{11}
+\contentsline {paragraph}{Hyperplane}{11}
+\contentsline {paragraph}{Kernels}{11}
+\contentsline {paragraph}{Labels}{11}
+\contentsline {paragraph}{Linear Algebra}{12}
+\contentsline {paragraph}{(Maximum) Margin Classifier}{12}
+\contentsline {paragraph}{Object Oriented Programming}{12}
+\contentsline {paragraph}{Preprocessing}{12}
+\contentsline {paragraph}{Machine Learning Classifier}{12}
+\contentsline {paragraph}{Machine Learning Model}{12}
+\contentsline {paragraph}{Norm}{12}
+\contentsline {paragraph}{Overfitting}{12}
+\contentsline {paragraph}{Stochastic Enviroment}{12}
+\contentsline {paragraph}{Supervised Learning}{12}
+\contentsline {paragraph}{R squared method}{12}
+\contentsline {paragraph}{Support Vector}{13}
+\contentsline {paragraph}{Threading}{13}
+\contentsline {paragraph}{Types of Data}{13}
+\contentsline {paragraph}{Unsupervised Learning}{13}
+\contentsline {paragraph}{Vector}{13}
+\contentsline {chapter}{Appendices}{14}
+\contentsline {chapter}{\numberline {A}Regression}{15}
+\contentsline {chapter}{\numberline {B}Manual Regression}{18}
+\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{20}
+\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{21}
+\contentsline {chapter}{\numberline {E}Support Vector Machine}{24}
+\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{25}
+\contentsline {chapter}{\numberline {G}K-Means}{29}
+\contentsline {chapter}{\numberline {H}Nonnumerical K-Means}{30}
+\contentsline {chapter}{\numberline {I}Manual K-Means}{32}
+\contentsline {chapter}{\numberline {J}Mean Shift}{34}
+\contentsline {chapter}{\numberline {K}Nonnumerical Mean Shift}{35}
+\contentsline {chapter}{\numberline {L}Manual Mean Shift}{37}

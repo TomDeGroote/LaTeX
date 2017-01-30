@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  30 JAN 2017 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  30 JAN 2017 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -876,27 +876,32 @@ Package pdftex.def Info: images/svm-decision-boundary.png used on input line 63
 (pdftex.def)             Requested size: 341.43437pt x 206.84499pt.
 ) (./clustering.tex [8]
 Chapter 4.
-) (./generalterms.tex [9
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+[9
+
+]) (./generalterms.tex [10]
 Chapter 5.
-<images/kernelmethod.png, id=58, 773.89125pt x 345.29pt>
+<images/kernelmethod.png, id=61, 773.89125pt x 345.29pt>
 File: images/kernelmethod.png Graphic file (type png)
 
 <use images/kernelmethod.png>
-Package pdftex.def Info: images/kernelmethod.png used on input line 37.
+Package pdftex.def Info: images/kernelmethod.png used on input line 40.
 (pdftex.def)             Requested size: 170.71393pt x 76.16423pt.
- [10
+ [11
 
 ]
-<images/svm-overfitting.png, id=64, 557.08125pt x 140.525pt>
+<images/svm-overfitting.png, id=67, 557.08125pt x 140.525pt>
 File: images/svm-overfitting.png Graphic file (type png)
 
 <use images/svm-overfitting.png>
-Package pdftex.def Info: images/svm-overfitting.png used on input line 68.
+Package pdftex.def Info: images/svm-overfitting.png used on input line 71.
 (pdftex.def)             Requested size: 341.43437pt x 86.12965pt.
- [11 <./images/kernelmethod.png> <./images/svm-overfitting.png (PNG copy)>]) [1
-2] [13
+ [12 <./images/kernelmethod.png> <./images/svm-overfitting.png (PNG copy)>]) [1
+3] [14
 
 
 ] (./code.tex
@@ -938,7 +943,7 @@ Overfull \hbox (281.0412pt too wide) in paragraph at lines 41--42
 ][][][][] 
  []
 
-[14
+[15
 
 ]
 Overfull \hbox (107.08235pt too wide) in paragraph at lines 59--61
@@ -970,8 +975,8 @@ Overfull \hbox (5.10648pt too wide) in paragraph at lines 98--100
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
-[16]
+ [16])
+[17]
 Appendix B.
 
 (/home/tom/Dropbox/Workspace/Python/PracticalML/LinearRegression/ManualRegressi
@@ -991,7 +996,7 @@ Overfull \hbox (53.09512pt too wide) in paragraph at lines 40--41
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[17
+[18
 
 ]
 Overfull \hbox (149.07242pt too wide) in paragraph at lines 45--46
@@ -1003,7 +1008,7 @@ Overfull \hbox (125.0781pt too wide) in paragraph at lines 47--48
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [18]
+) [19]
 Appendix C.
 
 (/home/tom/Dropbox/Workspace/Python/PracticalML/KNearestNeighbors/KNearestNeigh
@@ -1017,7 +1022,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 19--21
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [19
+) [20
 
 ]
 Appendix D.
@@ -1076,7 +1081,7 @@ Overfull \hbox (95.08519pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[20
+[21
 
 ]
 Overfull \hbox (269.04404pt too wide) in paragraph at lines 46--47
@@ -1130,8 +1135,8 @@ Overfull \hbox (89.08661pt too wide) in paragraph at lines 93--94
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-[22]
+ [22])
+[23]
 Appendix E.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/SVM/SVM.py
 Overfull \hbox (77.08945pt too wide) in paragraph at lines 6--7
@@ -1143,7 +1148,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 19--21
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [23
+) [24
 
 ]
 Appendix F.
@@ -1168,7 +1173,7 @@ Overfull \hbox (29.1008pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][] 
  []
 
-[24
+[25
 
 ]
 Overfull \hbox (95.08519pt too wide) in paragraph at lines 68--69
@@ -1214,7 +1219,7 @@ Overfull \hbox (83.08803pt too wide) in paragraph at lines 89--90
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [26]
 Overfull \hbox (269.04404pt too wide) in paragraph at lines 112--113
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
@@ -1287,7 +1292,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 158--159
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [27]
 Overfull \hbox (83.08803pt too wide) in paragraph at lines 160--161
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1314,15 +1319,298 @@ Overfull \hbox (29.1008pt too wide) in paragraph at lines 175--176
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-)) [27] (build/main.aux) ) 
+) [28]
+Appendix G.
+(/home/tom/Dropbox/Workspace/Python/PracticalML/KMeans/k-means.py
+Overfull \hbox (107.08235pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [29
+
+]
+Appendix H.
+(/home/tom/Dropbox/Workspace/Python/PracticalML/KMeans/nonnumerical-k-means.py
+Overfull \hbox (35.09938pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.10222pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.06532pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[30
+
+]
+Overfull \hbox (23.10222pt too wide) in paragraph at lines 44--45
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (89.08661pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.08093pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (155.071pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [31]
+Appendix I.
+(/home/tom/Dropbox/Workspace/Python/PracticalML/KMeans/manual-k-means.py
+Overfull \hbox (11.10506pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.09229pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (11.10506pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (167.06816pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (185.0639pt too wide) in paragraph at lines 40--41
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (275.04262pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+[32
+
+]
+Overfull \hbox (137.07526pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (155.071pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (203.05965pt too wide) in paragraph at lines 50--52
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (203.05965pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (155.071pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (89.08661pt too wide) in paragraph at lines 62--63
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (173.06674pt too wide) in paragraph at lines 68--69
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (263.04546pt too wide) in paragraph at lines 82--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (143.07384pt too wide) in paragraph at lines 88--90
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (185.0639pt too wide) in paragraph at lines 95--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [33]
+Appendix J.
+(/home/tom/Dropbox/Workspace/Python/PracticalML/MeanShift/mean-shift.py
+Overfull \hbox (53.09512pt too wide) in paragraph at lines 26--28
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.10364pt too wide) in paragraph at lines 35--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (227.05397pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [34
+
+]
+Appendix K.
+
+(/home/tom/Dropbox/Workspace/Python/PracticalML/MeanShift/nonnumerical-mean-shi
+ft.py
+Overfull \hbox (239.05113pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.09938pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.10222pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.06532pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[35
+
+]
+Overfull \hbox (221.05539pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (173.06674pt too wide) in paragraph at lines 76--77
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+Overfull \hbox (185.0639pt too wide) in paragraph at lines 84--85
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+) [36]
+Appendix L.
+(/home/tom/Dropbox/Workspace/Python/PracticalML/MeanShift/manual-mean-shift.py
+Overfull \hbox (131.07668pt too wide) in paragraph at lines 8--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (119.07951pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[37
+
+]
+Overfull \hbox (185.0639pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (287.03978pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (227.05397pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (77.08945pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (197.06107pt too wide) in paragraph at lines 70--71
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (113.08093pt too wide) in paragraph at lines 77--78
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (59.0937pt too wide) in paragraph at lines 78--79
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.10648pt too wide) in paragraph at lines 81--82
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (209.05823pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Overfull \hbox (221.05539pt too wide) in paragraph at lines 121--122
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (209.05823pt too wide) in paragraph at lines 131--132
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (47.09654pt too wide) in paragraph at lines 147--149
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (209.05823pt too wide) in paragraph at lines 153--154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)) [39] (build/main.aux) ) 
 Here is how much of TeX's memory you used:
- 23459 strings out of 493029
- 448104 string characters out of 6136233
- 531185 words of memory out of 5000000
- 26592 multiletter control sequences out of 15000+600000
+ 23560 strings out of 493029
+ 450400 string characters out of 6136233
+ 531242 words of memory out of 5000000
+ 26673 multiletter control sequences out of 15000+600000
  19922 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,75p,10376b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,75p,10376b,1886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t
 1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
@@ -1341,10 +1629,10 @@ er/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on build/main.pdf (27 pages, 513400 bytes).
+Output written on build/main.pdf (39 pages, 553013 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,1 +1,30 @@
 \chapter{Clustering}\label{chap:clustering}
+
+Clustering is a form of unsupervised learning and comes in two major forms: Flat and Hierarchical. With both forms the machine is tasked with receiving a dataset that is just featuresets, and then the machine searches for groups and assigns classes on its own. With Flat clustering the scientist tells the machine how many classes/clusters to fine. With Hierarchical clustering, the machine figures out the groups and how many. 
+\\\\
+The objective is to find relationships and meaninig in data. It can be used in a semi-supervised context, where the scientists use the results from clustiring for further classification or it can be used on truly unknown data, in an attempt to find some structure. Clustering can also be used for typical classificaton, you just don't need to actually feed it what the classifications are beforehand.
+
+\section{K-Means}
+K-Means tries to cluster a given dataset into K clusters. Since you have to give it the number of required clusters, it is a flat clustering algorithim. It works as follows:
+\begin{enumerate}
+\item Take the entire dataset, and set, randomly, K number of centroids.
+\item Calculate the distance of every featureset to the centroids, and classify based on the nearest centroid.
+\item Now take the mean of all groups, set these as the K centroids and repeat untill optimised. Optimisation is often measured as movement of the centroid.
+\end{enumerate}
+
+\subsection{Code examples}
+Three code approaches have been made. The first approach uses the \emph{sklearn} kit's K-Means classifier to classify a simple example, the approach can be found in appendix \ref{code:kmeans}. The second approach also uses the \emph{sklearn} kit's K-Means classifier but this time to classify nonnumerical data, this approach can be found in appendix \ref{code:nonnumerical-kmeans}. The third and final approach shows a more basic K-Means classifier which illustrates it's fundamentals. This code can help you understand the basic building blocks of the K-Means classifier.  This code can be found in appendix \ref{code:manual-kmeans}.
+
+\section{Mean Shift}
+Mean Shift is very similar to the K-Means algorithm but you do not need to give it the number of clusters in advance, therefor it is a hierarchical clustering algorithm. The Mean Shift algorithm thus follows the following steps:
+
+\begin{enumerate}
+\item Make all datapoints centroids
+\item Take mean of all featuresets within a centroid's radius, setting this mean as new centroid.
+\item Repeat step \#2 until convergence.
+\end{enumerate}
+
+\noindent As you may notice the downside is scalability, because we have to start from every datapoint. For finding the mean in step 2 we can use a kernel, you can either use a flat kernel (here we have every featureset with the same weigth) or a Gaussian Kernel (here weight's are assigned by proximity to the kernel's center). The radius as well can be calculated based on the data, as shown in the code-example \ref{code:manual-meanshift}.
+
+\subsection{Code examples}
+Three code approaches have been made. The first approach uses the \emph{sklearn} kit's Mean Shift classifier to classify a simple example, the approach can be found in appendix \ref{code:meanshift}. The second approach also uses the \emph{sklearn} kit's Mean Shift classifier but this time to classify nonnumerical data, this approach can be found in appendix \ref{code:nonnumerical-meanshift}. The third and final approach shows a more basic Mean Shift classifier which illustrates it's fundamentals. This code can help you understand the basic building blocks of the Mean Shift classifier.  This code can be found in appendix \ref{code:manual-meanshift}.
