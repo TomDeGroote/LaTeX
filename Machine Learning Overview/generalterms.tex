@@ -23,6 +23,8 @@ In a statistical-classification problem with two classes, a decision boundary is
 \paragraph{Dot Product}
 Also known as \emph{scalair product} or \emph{inner product} of two vectors $\vec{A}$ and $\vec{B}$ is defined as follows: $\vec{A} \cdot \vec{B} = a_1 b_1 + a_2 b_2 + ... + a_n b_n$. Two vectors are perpindicular if their dot product equals 0. Dutch translation: \emph{inwendig product}
 
+\paragraph{Epoch} A cycle of feed forward and back propagation in feed forward neural networks. Too many epochs can cause overfitment, too few can cause bad results.
+
 \paragraph{Eucledian Distance}
 A way to calculate the distance on a plane between points. It uses the following formula: $\sqrt{\sum\limits_{i=1}^n (q_{i} - p_{i})^2}$. Measures the length of a line segment between points.
 
@@ -49,6 +51,9 @@ Is a kind of transformation on your data. Grossly put it simplifies your data. M
 \paragraph{Labels} 
 What you are trying to predict of forecast for the data.
 
+\paragraph{Lemmatizer}
+A lemmatizertakes similar words and converts them into the same single word.
+
 \paragraph{Linear Algebra} 
 The objective of linear algebra is to calculate relationships of points in vector space. 
 
@@ -71,6 +76,16 @@ Used to clean/scale the data before using machine learning techniques. Cleaning 
 \paragraph{Norm} 
 %TODO
 
+\paragraph{One Hot}
+A term from electronics where just one element, out of the others is on. This is useful for multiclass classification tasks. For example representing numbers 0 to 9: 
+\begin{itemize}
+\item $0 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]$
+\item $1 = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]$
+\item $2 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]$
+\item[] $\cdots$
+\item $9 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]$
+
+\end{itemize}
 \paragraph{Overfitting}
 Overfitting is the act of fitting the function too much to the given sample data, a bad consequence of overfitting is that future data will not fit the calculated function. And example is shown in figure \ref{fig:svm-overfitting}.
 
@@ -95,9 +110,14 @@ Also known as \emph{coefficient of determination}. The squared error is the mean
 \paragraph{Support Vector}
 The points closest to the maximum-margin-hyperplane, as shown in figure \ref{fig:svm-support-vectors}.
 
-\paragraph{Tensor} A tensor is an array-like object that can hold a matrix, vector or even just a scalar.
+\paragraph{Tensor} 
+A tensor is an array-like object that can hold a matrix, vector or even just a scalar.
+
 \paragraph{Threading} 
 Some machine learning algorithms can be split into multiple threads, this is often indicated by the \emph{n\_ jobs} parameter in python. Others don't have this luxurary and are known as running linear.
+
+\paragraph{Tokenizer}
+A tokenizer sepertates elements. For example a word tokenizer seperates words.
 
 \paragraph{Types of Data} 
 With machine learning we can see our data in several groups. It is important that these groups do not overlap, since otherwise a bad representation of results could be shown.

@@ -29,12 +29,13 @@
 \contentsline {paragraph}{Deterministic Enviroment}{14}
 \contentsline {paragraph}{Decision Boundary}{14}
 \contentsline {paragraph}{Dot Product}{14}
+\contentsline {paragraph}{Epoch}{14}
 \contentsline {paragraph}{Eucledian Distance}{14}
 \contentsline {paragraph}{Eucledian Norm}{14}
 \contentsline {paragraph}{Features}{14}
 \contentsline {paragraph}{Gradient Descent}{14}
 \contentsline {paragraph}{Hyperplane}{14}
-\contentsline {paragraph}{Kernels}{14}
+\contentsline {paragraph}{Kernels}{15}
 \contentsline {paragraph}{Labels}{15}
 \contentsline {paragraph}{Linear Algebra}{15}
 \contentsline {paragraph}{(Maximum) Margin Classifier}{15}
@@ -43,12 +44,14 @@
 \contentsline {paragraph}{Machine Learning Classifier}{15}
 \contentsline {paragraph}{Machine Learning Model}{15}
 \contentsline {paragraph}{Norm}{15}
+\contentsline {paragraph}{One Hot}{15}
 \contentsline {paragraph}{Overfitting}{15}
 \contentsline {paragraph}{Sigmoid Function}{15}
-\contentsline {paragraph}{Stochastic Enviroment}{15}
-\contentsline {paragraph}{Supervised Learning}{15}
+\contentsline {paragraph}{Stochastic Enviroment}{16}
+\contentsline {paragraph}{Supervised Learning}{16}
 \contentsline {paragraph}{R squared method}{16}
 \contentsline {paragraph}{Support Vector}{16}
+\contentsline {paragraph}{Tensor}{16}
 \contentsline {paragraph}{Threading}{16}
 \contentsline {paragraph}{Types of Data}{16}
 \contentsline {paragraph}{Unsupervised Learning}{16}
