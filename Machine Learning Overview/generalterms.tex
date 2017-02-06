@@ -1,4 +1,6 @@
 \chapter{General Terms}\label{chap:general_terms}
+\paragraph{Backpropagation}
+%TODO
 
 \paragraph{Centroids}
 Centroids are the centers of clusters.
@@ -30,6 +32,9 @@ Measures the magnitude of a vector, which is basically the length. The equation 
 \paragraph{Features} 
 Descriptive attributes for the data.
 
+\paragraph{Gradient Descent}
+%TODO 
+
 \paragraph{Hyperplane}
 A hyperplane is a subspace of one dimension less than its ambient space. If a space is 3-dimensional then its hyperplanes are the 2-dimensional planes.
 
@@ -57,20 +62,26 @@ In short OOP makes it possible to make objects with attributes, these objects ca
 \paragraph{Preprocessing} 
 Used to clean/scale the data before using machine learning techniques. Cleaning for example by replacing NaN data with -99 999, because it will be handled as an outlier, or by interpolating it. Scaling your features so they fall between -1 and 1 is genarally a good idea because it could make the processing faster and more accurate.
 
-\paragraph{Machine Learning Classifier} %TODO
+\paragraph{Machine Learning Classifier} 
+%TODO
 
-\paragraph{Machine Learning Model} %TODO
+\paragraph{Machine Learning Model} 
+%TODO
 
-\paragraph{Norm} %TODO
+\paragraph{Norm} 
+%TODO
 
 \paragraph{Overfitting}
-Figure \ref{fig:svm-overfitting} should explain overfitting perfectly.
+Overfitting is the act of fitting the function too much to the given sample data, a bad consequence of overfitting is that future data will not fit the calculated function. And example is shown in figure \ref{fig:svm-overfitting}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{images/svm-overfitting.png}
 \caption{\label{fig:svm-overfitting} Shows underfitting, right fitting and overfitting.}
 \end{figure}
+
+\paragraph{Sigmoid Function}
+%TODO 
 
 \paragraph{Stochastic Enviroment}
 The endstate of the enviroment can not be exactly determined based on the current state of the enviroment and its objects since there is randomness involved.
@@ -84,6 +95,7 @@ Also known as \emph{coefficient of determination}. The squared error is the mean
 \paragraph{Support Vector}
 The points closest to the maximum-margin-hyperplane, as shown in figure \ref{fig:svm-support-vectors}.
 
+\paragraph{Tensor} A tensor is an array-like object that can hold a matrix, vector or even just a scalar.
 \paragraph{Threading} 
 Some machine learning algorithms can be split into multiple threads, this is often indicated by the \emph{n\_ jobs} parameter in python. Others don't have this luxurary and are known as running linear.
 

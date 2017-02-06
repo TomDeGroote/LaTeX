@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  30 JAN 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.19)  6 FEB 2017 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,27 +796,27 @@ e
 ABD: EveryShipout initializing macros [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/main.toc [2
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./introduction.tex [2
-
-]
+ (./introduction.tex [3]
 Chapter 1.
-) (./regression.tex [3
+) (./regression.tex [4
 
 ]
 Chapter 2.
-<images/linear_regression.png, id=23, 1284.8pt x 934.49126pt>
+<images/linear_regression.png, id=27, 1284.8pt x 934.49126pt>
 File: images/linear_regression.png Graphic file (type png)
 
 <use images/linear_regression.png>
 Package pdftex.def Info: images/linear_regression.png used on input line 12.
 (pdftex.def)             Requested size: 426.79135pt x 310.42213pt.
-) (./classification.tex [4
+) (./classification.tex [5
 
-] [5 <./images/linear_regression.png>]
+] [6 <./images/linear_regression.png>]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
@@ -834,17 +834,17 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [6
+ [7
 
 ]
-<images/svm-support-vectors.png, id=40, 907.13907pt x 549.55313pt>
+<images/svm-support-vectors.png, id=44, 907.13907pt x 549.55313pt>
 File: images/svm-support-vectors.png Graphic file (type png)
 
 <use images/svm-support-vectors.png>
 Package pdftex.def Info: images/svm-support-vectors.png used on input line 33.
 (pdftex.def)             Requested size: 341.43437pt x 206.84499pt.
 
-<images/svm-decision-boundary.png, id=42, 907.13907pt x 549.55313pt>
+<images/svm-decision-boundary.png, id=46, 907.13907pt x 549.55313pt>
 File: images/svm-decision-boundary.png Graphic file (type png)
 
 <use images/svm-decision-boundary.png>
@@ -864,7 +864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
 Underfull \vbox (badness 1715) has occurred while \output is active []
 
- [7 <./images/svm-support-vectors.png> <./images/svm-decision-boundary.png>]
+ [8 <./images/svm-support-vectors.png> <./images/svm-decision-boundary.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
@@ -874,34 +874,56 @@ File: images/svm-decision-boundary.png Graphic file (type png)
 Package pdftex.def Info: images/svm-decision-boundary.png used on input line 63
 .
 (pdftex.def)             Requested size: 341.43437pt x 206.84499pt.
-) (./clustering.tex [8]
+) (./clustering.tex [9]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[9
+[10
 
-]) (./generalterms.tex [10]
+]) (./neuralnetwork.tex [11]
 Chapter 5.
-<images/kernelmethod.png, id=61, 773.89125pt x 345.29pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+<images/nn_detail.png, id=64, 602.25pt x 286.06876pt>
+File: images/nn_detail.png Graphic file (type png)
+
+<use images/nn_detail.png>
+Package pdftex.def Info: images/nn_detail.png used on input line 14.
+(pdftex.def)             Requested size: 341.43437pt x 162.18787pt.
+
+<images/nn_overview.png, id=65, 301.125pt x 362.35374pt>
+File: images/nn_overview.png Graphic file (type png)
+
+<use images/nn_overview.png>
+Package pdftex.def Info: images/nn_overview.png used on input line 20.
+(pdftex.def)             Requested size: 170.71393pt x 205.43243pt.
+) (./generalterms.tex [12
+
+] [13 <./images/nn_detail.png> <./images/nn_overview.png>]
+Chapter 6.
+<images/kernelmethod.png, id=75, 773.89125pt x 345.29pt>
 File: images/kernelmethod.png Graphic file (type png)
 
 <use images/kernelmethod.png>
-Package pdftex.def Info: images/kernelmethod.png used on input line 40.
+Package pdftex.def Info: images/kernelmethod.png used on input line 45.
 (pdftex.def)             Requested size: 170.71393pt x 76.16423pt.
- [11
+ [14
 
 ]
-<images/svm-overfitting.png, id=67, 557.08125pt x 140.525pt>
+<images/svm-overfitting.png, id=81, 557.08125pt x 140.525pt>
 File: images/svm-overfitting.png Graphic file (type png)
 
 <use images/svm-overfitting.png>
-Package pdftex.def Info: images/svm-overfitting.png used on input line 71.
+Package pdftex.def Info: images/svm-overfitting.png used on input line 79.
 (pdftex.def)             Requested size: 341.43437pt x 86.12965pt.
- [12 <./images/kernelmethod.png> <./images/svm-overfitting.png (PNG copy)>]) [1
-3] [14
+ [15 <./images/kernelmethod.png> <./images/svm-overfitting.png (PNG copy)>]) [1
+6] [17
 
 
 ] (./code.tex
@@ -943,7 +965,7 @@ Overfull \hbox (281.0412pt too wide) in paragraph at lines 41--42
 ][][][][] 
  []
 
-[15
+[18
 
 ]
 Overfull \hbox (107.08235pt too wide) in paragraph at lines 59--61
@@ -975,8 +997,8 @@ Overfull \hbox (5.10648pt too wide) in paragraph at lines 98--100
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-[17]
+ [19])
+[20]
 Appendix B.
 
 (/home/tom/Dropbox/Workspace/Python/PracticalML/LinearRegression/ManualRegressi
@@ -996,7 +1018,7 @@ Overfull \hbox (53.09512pt too wide) in paragraph at lines 40--41
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[18
+[21
 
 ]
 Overfull \hbox (149.07242pt too wide) in paragraph at lines 45--46
@@ -1008,7 +1030,7 @@ Overfull \hbox (125.0781pt too wide) in paragraph at lines 47--48
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [19]
+) [22]
 Appendix C.
 
 (/home/tom/Dropbox/Workspace/Python/PracticalML/KNearestNeighbors/KNearestNeigh
@@ -1022,7 +1044,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 19--21
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [20
+) [23
 
 ]
 Appendix D.
@@ -1081,7 +1103,7 @@ Overfull \hbox (95.08519pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[21
+[24
 
 ]
 Overfull \hbox (269.04404pt too wide) in paragraph at lines 46--47
@@ -1135,8 +1157,8 @@ Overfull \hbox (89.08661pt too wide) in paragraph at lines 93--94
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22])
-[23]
+ [25])
+[26]
 Appendix E.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/SVM/SVM.py
 Overfull \hbox (77.08945pt too wide) in paragraph at lines 6--7
@@ -1148,7 +1170,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 19--21
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [24
+) [27
 
 ]
 Appendix F.
@@ -1173,7 +1195,7 @@ Overfull \hbox (29.1008pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][] 
  []
 
-[25
+[28
 
 ]
 Overfull \hbox (95.08519pt too wide) in paragraph at lines 68--69
@@ -1219,7 +1241,7 @@ Overfull \hbox (83.08803pt too wide) in paragraph at lines 89--90
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [29]
 Overfull \hbox (269.04404pt too wide) in paragraph at lines 112--113
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] 
@@ -1292,7 +1314,7 @@ Overfull \hbox (107.08235pt too wide) in paragraph at lines 158--159
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [30]
 Overfull \hbox (83.08803pt too wide) in paragraph at lines 160--161
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1319,14 +1341,14 @@ Overfull \hbox (29.1008pt too wide) in paragraph at lines 175--176
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [28]
+) [31]
 Appendix G.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/KMeans/k-means.py
 Overfull \hbox (107.08235pt too wide) in paragraph at lines 26--27
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [29
+) [32
 
 ]
 Appendix H.
@@ -1345,7 +1367,7 @@ Overfull \hbox (179.06532pt too wide) in paragraph at lines 37--38
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[30
+[33
 
 ]
 Overfull \hbox (23.10222pt too wide) in paragraph at lines 44--45
@@ -1367,7 +1389,7 @@ Overfull \hbox (155.071pt too wide) in paragraph at lines 66--67
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [31]
+) [34]
 Appendix I.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/KMeans/manual-k-means.py
 Overfull \hbox (11.10506pt too wide) in paragraph at lines 17--18
@@ -1400,7 +1422,7 @@ Overfull \hbox (275.04262pt too wide) in paragraph at lines 41--42
 ] 
  []
 
-[32
+[35
 
 ]
 Overfull \hbox (137.07526pt too wide) in paragraph at lines 45--46
@@ -1454,7 +1476,7 @@ Overfull \hbox (185.0639pt too wide) in paragraph at lines 95--97
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [33]
+) [36]
 Appendix J.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/MeanShift/mean-shift.py
 Overfull \hbox (53.09512pt too wide) in paragraph at lines 26--28
@@ -1471,7 +1493,7 @@ Overfull \hbox (227.05397pt too wide) in paragraph at lines 38--39
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [34
+) [37
 
 ]
 Appendix K.
@@ -1498,7 +1520,7 @@ Overfull \hbox (179.06532pt too wide) in paragraph at lines 39--40
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[35
+[38
 
 ]
 Overfull \hbox (221.05539pt too wide) in paragraph at lines 63--64
@@ -1518,7 +1540,7 @@ Overfull \hbox (185.0639pt too wide) in paragraph at lines 84--85
 ] 
  []
 
-) [36]
+) [39]
 Appendix L.
 (/home/tom/Dropbox/Workspace/Python/PracticalML/MeanShift/manual-mean-shift.py
 Overfull \hbox (131.07668pt too wide) in paragraph at lines 8--10
@@ -1531,7 +1553,7 @@ Overfull \hbox (119.07951pt too wide) in paragraph at lines 18--19
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[37
+[40
 
 ]
 Overfull \hbox (185.0639pt too wide) in paragraph at lines 45--46
@@ -1582,7 +1604,7 @@ Overfull \hbox (209.05823pt too wide) in paragraph at lines 96--97
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [41]
 Overfull \hbox (221.05539pt too wide) in paragraph at lines 121--122
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1602,15 +1624,15 @@ Overfull \hbox (209.05823pt too wide) in paragraph at lines 153--154
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-)) [39] (build/main.aux) ) 
+)) [42] (build/main.aux) ) 
 Here is how much of TeX's memory you used:
- 23560 strings out of 493029
- 450400 string characters out of 6136233
- 531242 words of memory out of 5000000
- 26673 multiletter control sequences out of 15000+600000
+ 23575 strings out of 493029
+ 450701 string characters out of 6136233
+ 531372 words of memory out of 5000000
+ 26683 multiletter control sequences out of 15000+600000
  19922 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,75p,10376b,1886s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,75p,10376b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t
 1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
@@ -1629,10 +1651,10 @@ er/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on build/main.pdf (39 pages, 553013 bytes).
+Output written on build/main.pdf (42 pages, 622366 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 242 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
