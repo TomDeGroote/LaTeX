@@ -19,53 +19,68 @@
 \contentsline {subsection}{\numberline {4.2.1}Code examples}{11}
 \contentsline {chapter}{\numberline {5}Neural Network}{12}
 \contentsline {section}{\numberline {5.1}Feed Forward Neural Networks}{12}
-\contentsline {section}{\numberline {5.2}LTSM Neural Networks}{12}
-\contentsline {chapter}{\numberline {6}General Terms}{14}
-\contentsline {paragraph}{Backpropagation}{14}
-\contentsline {paragraph}{Centroids}{14}
-\contentsline {paragraph}{Confidence Score}{14}
-\contentsline {paragraph}{Convex}{14}
-\contentsline {paragraph}{Cross Validation}{14}
-\contentsline {paragraph}{Deterministic Enviroment}{14}
-\contentsline {paragraph}{Decision Boundary}{14}
-\contentsline {paragraph}{Dot Product}{14}
-\contentsline {paragraph}{Epoch}{14}
-\contentsline {paragraph}{Eucledian Distance}{14}
-\contentsline {paragraph}{Eucledian Norm}{14}
-\contentsline {paragraph}{Features}{14}
-\contentsline {paragraph}{Gradient Descent}{14}
-\contentsline {paragraph}{Hyperplane}{14}
-\contentsline {paragraph}{Kernels}{15}
-\contentsline {paragraph}{Labels}{15}
-\contentsline {paragraph}{Linear Algebra}{15}
-\contentsline {paragraph}{(Maximum) Margin Classifier}{15}
-\contentsline {paragraph}{Object Oriented Programming}{15}
-\contentsline {paragraph}{Preprocessing}{15}
-\contentsline {paragraph}{Machine Learning Classifier}{15}
-\contentsline {paragraph}{Machine Learning Model}{15}
-\contentsline {paragraph}{Norm}{15}
-\contentsline {paragraph}{One Hot}{15}
-\contentsline {paragraph}{Overfitting}{15}
-\contentsline {paragraph}{Sigmoid Function}{15}
-\contentsline {paragraph}{Stochastic Enviroment}{16}
-\contentsline {paragraph}{Supervised Learning}{16}
-\contentsline {paragraph}{R squared method}{16}
-\contentsline {paragraph}{Support Vector}{16}
-\contentsline {paragraph}{Tensor}{16}
-\contentsline {paragraph}{Threading}{16}
-\contentsline {paragraph}{Types of Data}{16}
-\contentsline {paragraph}{Unsupervised Learning}{16}
-\contentsline {paragraph}{Vector}{16}
-\contentsline {chapter}{Appendices}{17}
-\contentsline {chapter}{\numberline {A}Regression}{18}
-\contentsline {chapter}{\numberline {B}Manual Regression}{21}
-\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{23}
-\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{24}
-\contentsline {chapter}{\numberline {E}Support Vector Machine}{27}
-\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{28}
-\contentsline {chapter}{\numberline {G}K-Means}{32}
-\contentsline {chapter}{\numberline {H}Nonnumerical K-Means}{33}
-\contentsline {chapter}{\numberline {I}Manual K-Means}{35}
-\contentsline {chapter}{\numberline {J}Mean Shift}{37}
-\contentsline {chapter}{\numberline {K}Nonnumerical Mean Shift}{38}
-\contentsline {chapter}{\numberline {L}Manual Mean Shift}{40}
+\contentsline {subsection}{\numberline {5.1.1}Code}{12}
+\contentsline {section}{\numberline {5.2}Recurrent Neural Networks}{12}
+\contentsline {subsection}{\numberline {5.2.1}LSTM}{13}
+\contentsline {subsection}{\numberline {5.2.2}Code}{13}
+\contentsline {section}{\numberline {5.3}Convolutional Neural Network}{13}
+\contentsline {subsection}{\numberline {5.3.1}Code}{13}
+\contentsline {chapter}{\numberline {6}General Terms}{15}
+\contentsline {paragraph}{Backpropagation}{15}
+\contentsline {paragraph}{Centroids}{15}
+\contentsline {paragraph}{Confidence Score}{15}
+\contentsline {paragraph}{Convex}{15}
+\contentsline {paragraph}{Cross Validation}{15}
+\contentsline {paragraph}{Deterministic Enviroment}{15}
+\contentsline {paragraph}{Decision Boundary}{15}
+\contentsline {paragraph}{Dot Product}{15}
+\contentsline {paragraph}{Down-sampling}{15}
+\contentsline {paragraph}{Epoch}{15}
+\contentsline {paragraph}{Eucledian Distance}{15}
+\contentsline {paragraph}{Eucledian Norm}{15}
+\contentsline {paragraph}{Features}{15}
+\contentsline {paragraph}{Gradient Descent}{15}
+\contentsline {paragraph}{Hyperplane}{15}
+\contentsline {paragraph}{Kernels}{16}
+\contentsline {paragraph}{Labels}{16}
+\contentsline {paragraph}{Lemmatizer}{16}
+\contentsline {paragraph}{Linear Algebra}{16}
+\contentsline {paragraph}{(Maximum) Margin Classifier}{16}
+\contentsline {paragraph}{Object Oriented Programming}{16}
+\contentsline {paragraph}{Preprocessing}{16}
+\contentsline {paragraph}{Machine Learning Classifier}{16}
+\contentsline {paragraph}{Machine Learning Model}{16}
+\contentsline {paragraph}{Norm}{16}
+\contentsline {paragraph}{One Hot}{16}
+\contentsline {paragraph}{Overfitting}{16}
+\contentsline {paragraph}{Sigmoid Function}{17}
+\contentsline {paragraph}{Stochastic Enviroment}{17}
+\contentsline {paragraph}{Supervised Learning}{17}
+\contentsline {paragraph}{R squared method}{17}
+\contentsline {paragraph}{Support Vector}{17}
+\contentsline {paragraph}{Tensor}{17}
+\contentsline {paragraph}{Threading}{17}
+\contentsline {paragraph}{Tokenizer}{17}
+\contentsline {paragraph}{Types of Data}{17}
+\contentsline {paragraph}{Unsupervised Learning}{17}
+\contentsline {paragraph}{Vector}{17}
+\contentsline {chapter}{Appendices}{18}
+\contentsline {chapter}{\numberline {A}Regression}{19}
+\contentsline {chapter}{\numberline {B}Manual Regression}{22}
+\contentsline {chapter}{\numberline {C}K Nearest Neighbors}{24}
+\contentsline {chapter}{\numberline {D}Manual K Nearest Neighbors}{25}
+\contentsline {chapter}{\numberline {E}Support Vector Machine}{28}
+\contentsline {chapter}{\numberline {F}Manual Support Vector Machine}{29}
+\contentsline {chapter}{\numberline {G}K-Means}{33}
+\contentsline {chapter}{\numberline {H}Nonnumerical K-Means}{34}
+\contentsline {chapter}{\numberline {I}Manual K-Means}{36}
+\contentsline {chapter}{\numberline {J}Mean Shift}{38}
+\contentsline {chapter}{\numberline {K}Nonnumerical Mean Shift}{39}
+\contentsline {chapter}{\numberline {L}Manual Mean Shift}{41}
+\contentsline {chapter}{\numberline {M}Create Sentiment Featureset}{44}
+\contentsline {chapter}{\numberline {N}Convolutional Neural Network}{47}
+\contentsline {chapter}{\numberline {O}Neural Network Example}{50}
+\contentsline {chapter}{\numberline {P}Long Short Term Menomory}{51}
+\contentsline {chapter}{\numberline {Q}Number Recognition using Neural Nets}{53}
+\contentsline {chapter}{\numberline {R}Sentiment Analyses with Neural Nets}{55}
+\contentsline {chapter}{\numberline {S}Convolution with TFLearn}{58}
